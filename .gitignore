@@ -1,27 +1,23 @@
-*.py[co]
+# Ignore byte compiled files
+*.pyc
+*.log
 
-# Packages
-*.egg
-*.egg-info
+log
 dist
 build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
-.installed.cfg
 
-# Installer logs
-pip-log.txt
+# Ignore Eclipse IDE files
+.settings
+.project
+.pydevproject
 
-# Unit test / coverage reports
-.coverage
-.tox
 
-#Translations
-*.mo
+*.egg-info
+.directory
 
-#Mr Developer
-.mr.developer.cfg
+# Ignore linked resources
+paypal
+cmsproject/static
+cmsproject/template
+cmsproject/themes
+cmsproject/media
