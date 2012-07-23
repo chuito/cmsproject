@@ -127,6 +127,8 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 
 CMS_TEMPLATES = (
     ('example.html',    'Example Template'),
+    ('simple_index.html',    'Simple'),
+    ('summer_index.html',    'Summer'),
 )
 
 ROOT_URLCONF = 'cmsproject.urls'

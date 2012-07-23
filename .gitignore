@@ -18,6 +18,6 @@ build
 # Ignore linked resources
 paypal
 cmsproject/static
-cmsproject/template
-cmsproject/themes
-cmsproject/media
+cmsproject/media/filer
+cmsproject/media/filer_thumbnails
+cmsproject/media/themes_archives
