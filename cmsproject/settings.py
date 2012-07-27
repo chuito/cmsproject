@@ -145,6 +145,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
 
     #'admintools_bootstrap',
+    'fluent_dashboard',
     'admin_tools',
     'admin_tools.theming',
     'admin_tools.menu',
@@ -185,3 +186,8 @@ THUMBNAIL_PROCESSORS = (
     'filer.thumbnail_processors.scale_and_crop_with_subject_location',
     'easy_thumbnails.processors.filters',
 )
+
+
+ADMIN_TOOLS_INDEX_DASHBOARD = 'fluent_dashboard.dashboard.FluentIndexDashboard'
+ADMIN_TOOLS_APP_INDEX_DASHBOARD = 'fluent_dashboard.dashboard.FluentAppIndexDashboard'
+ADMIN_TOOLS_MENU = 'fluent_dashboard.menu.FluentMenu'
